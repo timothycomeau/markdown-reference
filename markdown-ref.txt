@@ -1,0 +1,109 @@
+Heading
+=======
+
+Sub-heading
+-----------
+
+Horizontal Rules
+--
+
+```
+three or more ...
+
+---
+***
+___ (undescores)
+```
+
+***
+
+![alt text](http://markdown.timothycomeau.com/d/img/markdown-mark.png "Markdown Mark")
+
+***
+
+Paragraphs are separated by a blank line.
+
+Text attributes *Italic*,
+**bold**, `monospace`.
+
+
+---
+Shopping list:
+
+  * apples
+  * oranges
+  * pears
+
+---
+
+Numbered list:
+
+  1 apples
+  2 oranges
+  3 pears
+
+The rain ---not the reign--- in
+Spain.
+
+----
+
+~~Mistaken text~~
+
+----
+
+Code Blocks
+===========
+
+
+```
+code block
+```
+
+With syntax highlighting
+====
+
+```html
+<html>
+<p>Hello World</p>
+</html>
+```
+
+----
+
+Tables
+=====
+
+First Header | Second Header
+-------------| -------------
+Content Cell | Content Cell
+Content Content Cell | Content Cell
+
+
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+---
+
+Links
+====
+
+[I'm an inline-style link](https://www.google.com)
+
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+
+[I'm a relative reference to a repository file](../blob/master/LICENSE)
+
+---
+Blockquotes
+===
+
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
+Quote break.
+
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
