@@ -29,31 +29,40 @@ body {
 
 header {
 border-bottom: 1px solid #ddd;
-/*height: 40px;*/
 height: auto;
 padding: 5px 0px 5px 0px;
 margin-bottom: 5px;
 font-size:0.8em;
 }
 
-header img {
+.markdown-mark {
 	width:70px;
 	margin-right: 10px;
 }
 
+header img {
+  width:110px;
+}
+
 #l-h {
-/*outline:1px solid blue;*/
 float:left;
 width:auto;
 height: auto;
 }
 
 #r-h {
-/*outline:1px solid orange;*/
 float:left;
 width:auto;
 height: auto;
-padding:5px 0px 0px 0px;
+padding:5px 10px 0px 0px;
+border-right: 1px solid #eee;
+}
+
+#r-h-h {
+float:left;
+width:auto;
+height: auto;
+padding:0px 0px 0px 0px;
 }
 
 .clear{
@@ -78,25 +87,12 @@ padding: 0px;
 
 iframe {
 	height: 85vh;
-	/*outline: 1px solid #ddd;*/
 
 }
 
 /*==================================================================*/
 /* Github Markdown stylesheet https://gist.github.com/tuzz/3331384
 /*==================================================================*/
-
-
-/*body {
-  font-family: Helvetica, arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: white;
-  padding: 30px;
-  color: #333;
-}*/
 
 body > *:first-child {
   margin-top: 0 !important;
@@ -515,92 +511,4 @@ br {
 
 }/*end media query*/
 
-/*==================================================================*/
-/* Responsive style for portrait
-/* for 768 or less
-/*==================================================================*/
 
-
-
-@media only screen and (device-width: 768px) and (orientation:portrait) {
-
-}
-
-/*==================================================================*/
-/* Print Styles
-/*==================================================================*/
-
-
-@media print {
-* {
-background: transparent !important;
-color: #000 !important; /* Black prints faster: h5bp.com/s */
-box-shadow: none !important;
-text-shadow: none !important;
-}
-
-a,
-a:visited {
-text-decoration: underline;
-}
-
-/*  a[href]:after {
-content: " (" attr(href) ")";
-}
-
-abbr[title]:after {
-content: " (" attr(title) ")";
-}*/
-
-/*
-* Don't show links for images, or javascript/internal links
-*/
-
-.ir a:after,
-a[href^="javascript:"]:after,
-a[href^="#"]:after {
-content: "";
-}
-
-pre,
-blockquote {
-border: 1px solid #999;
-page-break-inside: avoid;
-}
-
-thead {
-display: table-header-group; /* h5bp.com/t */
-}
-
-tr,
-img {
-page-break-inside: avoid;
-}
-
-img {
-max-width: 100% !important;
-}
-
-@page {
-margin: 0.5cm;
-}
-
-p,
-h2,
-h3 {
-orphans: 3;
-widows: 3;
-}
-
-h2,
-h3 {
-page-break-after: avoid;
-}
-
-table {width:100%;}
-
-img {width:100%;}
-td.none {width: 70px}
-td.none > img {width:20px;}
-
-}
