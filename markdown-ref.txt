@@ -54,6 +54,7 @@ Spain.
 Code Blocks
 ===========
 
+Code that is part of a sentence is called `inline code` and is written with one tick surrounding the code example.
 
 ```
 code block

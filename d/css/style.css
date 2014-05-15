@@ -434,6 +434,11 @@ span.float-right > span {
   text-align: right;
 }
 
+p code {
+  font-size: 13px;
+   border: 1px solid #cccccc;
+}
+
 code, tt {
   margin: 0 2px;
   padding: 0 5px;
