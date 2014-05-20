@@ -23,6 +23,12 @@ ___ (undescores)
 
 Paragraphs are separated by a blank line.
 
+Create a line break with two space after a line:
+
+Phone number  |
+Email
+Website
+
 Text attributes *Italic*,
 **bold**, `monospace`.
 
