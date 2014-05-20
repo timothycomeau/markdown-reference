@@ -23,7 +23,7 @@ ___ (undescores)
 
 Paragraphs are separated by a blank line.
 
-Create a line break with two space after a line:
+Create a line break with two spaces after a line:
 
 Phone number  |
 Email
